@@ -4,6 +4,9 @@
 
 In this project I have implemented a PID controller to control the steering and throttle of a vehicle in carla simulator. The trajectory is given by the path planner and PID controller is reponsible for following this trajectory. Implementaion was done by first creating a PID class, creating PID objects for steering and throttle and finally tuning the proportional ,derivative and integral parameters so as to follow the trajectory given by the path planner.The controller was tested in carla simulator and the outputs were plotted using a python script.
 
+![this is a image](/img/controlpass.jpg)
+
+
 ### Installation
 
 Run the following commands to install the starter code in the Udacity Workspace:
@@ -103,7 +106,10 @@ pip3 install pandas
 pip3 install matplotlib
 ```
 
-Answer the following questions:
+
+
+Answer the following questions [Answers](/Answers.pdf):
+
 - Add the plots to your report and explain them (describe what you see)
 - What is the effect of the PID according to the plots, how each part of the PID affects the control command?
 - How would you design a way to automatically tune the PID parameters?
@@ -111,9 +117,7 @@ Answer the following questions:
 - (Optional) What would you do to improve the PID controller?
 
 
-### Tips:
+### Project Review:
 
-- When you wil be testing your c++ code, restart the Carla simulator to remove the former car from the simulation.
-- If the simulation freezes on the desktop mode but is still running on the terminal, close the desktop and restart it.
-- When you will be tuning the PID parameters, try between those values:
 
+![this is a image](/img/ControlReview.png)
